@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.EnhancedTouch;
+using Touch = UnityEngine.InputSystem.EnhancedTouch.Touch;
 
 [RequireComponent(typeof(Rigidbody))]
 public class PlayerController : MonoBehaviour
@@ -8,6 +10,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Mobile")]
     public MobileJoystick mobileJoystick;
+    public GameObject mobileControls;
 
     [Header("Movement")]
     public float moveSpeed = 6f;
@@ -20,7 +23,7 @@ public class PlayerController : MonoBehaviour
     public float groundDistance = 0.3f;
     public LayerMask groundLayer;
 
-    [Header("PC/Mac Buttons (optional)")]
+    [Header("Buttons")]
     public GameObject jumpButton;
     public GameObject sprintButton;
 
@@ -38,24 +41,37 @@ public class PlayerController : MonoBehaviour
         rb.freezeRotation = true;
     }
 
-    void Start()
+  void Start()
     {
-        // Vis kun knapper på mobile (Android/iOS)
+        // Aktiver Enhanced Touch (kun relevant på mobile)
         if (Application.isMobilePlatform)
-        {
-            if (jumpButton != null) jumpButton.SetActive(true);
-            if (sprintButton != null) sprintButton.SetActive(true);
-        }
-        else
-        {
-            if (jumpButton != null) jumpButton.SetActive(false);
-            if (sprintButton != null) sprintButton.SetActive(false);
-        }
+            EnhancedTouchSupport.Enable();
 
-        // Fjerne den hvide firkant
+        bool isMobile = Application.isMobilePlatform;
+
+        // Vis / skjul mobile controls
+        if (mobileControls != null)
+            mobileControls.SetActive(isMobile);
+
+        if (jumpButton != null)
+            jumpButton.SetActive(isMobile);
+
+        if (sprintButton != null)
+            sprintButton.SetActive(isMobile);
+
+        // Fjerne den hvide firkant hvis den eksisterer
         GameObject whiteBox = GameObject.Find("WhiteBox");
         if (whiteBox != null)
             Destroy(whiteBox);
+
+        // Sikrer, at MobileJoystick ikke forsøger at bruge referencer på PC/Mac
+        if (!isMobile && mobileJoystick != null)
+        {
+            if (mobileJoystick.joystickBackground != null)
+                mobileJoystick.joystickBackground.gameObject.SetActive(false);
+            if (mobileJoystick.joystickKnob != null)
+                mobileJoystick.joystickKnob.gameObject.SetActive(false);
+        }
     }
 
     void OnEnable()
@@ -83,7 +99,10 @@ public class PlayerController : MonoBehaviour
 
     void MovePlayer()
     {
-        // PC kamera rotation stop
+        // stop movement ved 2 finger kamera rotation
+        if (Touch.activeTouches.Count >= 2)
+            return;
+            
         if (Keyboard.current != null && Keyboard.current.zKey.isPressed)
             return;
 
@@ -98,7 +117,6 @@ public class PlayerController : MonoBehaviour
 
         Vector2 input = moveInput;
 
-        // MOBILE joystick override
         if (mobileJoystick != null)
         {
             float h = mobileJoystick.Horizontal();
@@ -140,8 +158,6 @@ public class PlayerController : MonoBehaviour
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundLayer);
     }
-
-    // UI BUTTONS (PC + MOBILE)
 
     public void JumpButton()
     {

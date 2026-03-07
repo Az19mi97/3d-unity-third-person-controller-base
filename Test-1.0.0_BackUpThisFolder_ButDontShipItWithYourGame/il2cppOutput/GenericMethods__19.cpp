@@ -5384,7 +5384,7 @@ inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List
 {
 	((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared)(__this, ___0_item, method);
 }
-// Method Definition Index: 39769
+// Method Definition Index: 39776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BindingOverrideListJson_t8F77156B5E01230C75E4CE3D2EDB2B10599804FD JsonUtility_FromJson_TisBindingOverrideListJson_t8F77156B5E01230C75E4CE3D2EDB2B10599804FD_mA903A35F5BA670B4C51EB0B7988066C042D81122_gshared (String_t* ___0_json, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -5408,7 +5408,7 @@ IL_0019:
 		return L_4;
 	}
 }
-// Method Definition Index: 39769
+// Method Definition Index: 39776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReadFileJson_tFF5D8F02142C27FF9FB5A9274B99F21799FD09BB JsonUtility_FromJson_TisReadFileJson_tFF5D8F02142C27FF9FB5A9274B99F21799FD09BB_mB4BBF2E040BDE85F41518ABAD7A46233B1989806_gshared (String_t* ___0_json, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -5432,7 +5432,7 @@ IL_0019:
 		return L_4;
 	}
 }
-// Method Definition Index: 39769
+// Method Definition Index: 39776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LayoutJson_t79F9D8B74314A3697F189FBA1DE721260F5E9399 JsonUtility_FromJson_TisLayoutJson_t79F9D8B74314A3697F189FBA1DE721260F5E9399_m1323ACD3DA5A5768BCA2BCCE2A6A0C7B55127917_gshared (String_t* ___0_json, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -5456,7 +5456,7 @@ IL_0019:
 		return L_4;
 	}
 }
-// Method Definition Index: 39769
+// Method Definition Index: 39776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LayoutJsonNameAndDescriptorOnly_t65374D6FE057889718820FCFA163517FAA40AB5F JsonUtility_FromJson_TisLayoutJsonNameAndDescriptorOnly_t65374D6FE057889718820FCFA163517FAA40AB5F_mA4F6C7BA2452D0278070D2911C515A8D179FACA0_gshared (String_t* ___0_json, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -5480,7 +5480,7 @@ IL_0019:
 		return L_4;
 	}
 }
-// Method Definition Index: 39769
+// Method Definition Index: 39776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeviceDescriptionJson_t2555458633C9CD5AAEFF9265C6F9117AB33BDDCE JsonUtility_FromJson_TisDeviceDescriptionJson_t2555458633C9CD5AAEFF9265C6F9117AB33BDDCE_m7A8A252CFD487454262150A552CF0ADABE7733B8_gshared (String_t* ___0_json, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -5504,7 +5504,7 @@ IL_0019:
 		return L_4;
 	}
 }
-// Method Definition Index: 39769
+// Method Definition Index: 39776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Capabilities_tA8B3A54A042CC9F32CA34A6A12E0253868A44257 JsonUtility_FromJson_TisCapabilities_tA8B3A54A042CC9F32CA34A6A12E0253868A44257_m4D225DFD32556FE649106032771A15596BD24C73_gshared (String_t* ___0_json, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -5528,7 +5528,7 @@ IL_0019:
 		return L_4;
 	}
 }
-// Method Definition Index: 39769
+// Method Definition Index: 39776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Data_tEBB3D708778E8658163A56C2E56F3512738AFE74 JsonUtility_FromJson_TisData_tEBB3D708778E8658163A56C2E56F3512738AFE74_m73DDD6EEA5AA42B0F4E0909596669C1F1EC729EC_gshared (String_t* ___0_json, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -5552,7 +5552,7 @@ IL_0019:
 		return L_4;
 	}
 }
-// Method Definition Index: 39769
+// Method Definition Index: 39776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Data_t6043413CF02BCA5D92233B1F6EFF4CD170A397F9 JsonUtility_FromJson_TisData_t6043413CF02BCA5D92233B1F6EFF4CD170A397F9_mE46784BD80F16AEF2E306D3BD7163BF10AC1EA2C_gshared (String_t* ___0_json, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -5576,7 +5576,7 @@ IL_0019:
 		return L_4;
 	}
 }
-// Method Definition Index: 39769
+// Method Definition Index: 39776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Data_tE3251F7D0B2D45AB9D13E3019F828403D96DB059 JsonUtility_FromJson_TisData_tE3251F7D0B2D45AB9D13E3019F828403D96DB059_m705625EA986B60215DA5E58042E50E9705C8F6FC_gshared (String_t* ___0_json, const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);

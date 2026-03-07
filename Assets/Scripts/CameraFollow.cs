@@ -2,10 +2,11 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.EnhancedTouch;
 using Touch = UnityEngine.InputSystem.EnhancedTouch.Touch;
+
 public class CameraFollow : MonoBehaviour
 {
     [Header("Camera Settings")]
-    public Transform target;   // spilleren
+    public Transform target;
     public float distance = 6f;
     public float height = 2f;
     public float mouseSensitivity = 0.2f;
@@ -21,26 +22,29 @@ public class CameraFollow : MonoBehaviour
         Vector3 angles = transform.eulerAngles;
         yaw = angles.y;
         pitch = angles.x;
+
         EnhancedTouchSupport.Enable();
     }
+
     void LateUpdate()
     {
         if (target == null) return;
 
         HandleMouseRotation();
         HandleKeyboardRotation();
-        HandleTouchRotation();   // NEW
+        HandleTouchRotation();
 
         FollowTarget();
     }
 
     void HandleTouchRotation()
     {
-        if (Touch.activeTouches.Count == 1)
+        // Kamera roterer KUN hvis der er 2 fingre
+        if (Touch.activeTouches.Count >= 2)
         {
             var touch = Touch.activeTouches[0];
 
-            Vector2 delta = touch.delta * mouseSensitivity * 0.5f;
+            Vector2 delta = touch.delta * mouseSensitivity * 0.6f;
 
             yaw += delta.x;
             pitch -= delta.y;
@@ -48,20 +52,23 @@ public class CameraFollow : MonoBehaviour
             pitch = Mathf.Clamp(pitch, minVerticalAngle, maxVerticalAngle);
         }
     }
+
     void HandleMouseRotation()
     {
-        if (Mouse.current.rightButton.isPressed)
+        if (Mouse.current != null && Mouse.current.rightButton.isPressed)
         {
             Vector2 mouse = Mouse.current.delta.ReadValue() * mouseSensitivity;
+
             yaw += mouse.x;
             pitch -= mouse.y;
+
             pitch = Mathf.Clamp(pitch, minVerticalAngle, maxVerticalAngle);
         }
     }
 
     void HandleKeyboardRotation()
     {
-        if (Keyboard.current.zKey.isPressed)
+        if (Keyboard.current != null && Keyboard.current.zKey.isPressed)
         {
             if (Keyboard.current.aKey.isPressed || Keyboard.current.leftArrowKey.isPressed)
                 yaw -= keyRotationSpeed * Time.deltaTime;
@@ -82,8 +89,11 @@ public class CameraFollow : MonoBehaviour
     void FollowTarget()
     {
         Quaternion rotation = Quaternion.Euler(pitch, yaw, 0);
+
         Vector3 direction = rotation * Vector3.back * distance;
+
         Vector3 finalPos = target.position + Vector3.up * height + direction;
+
         transform.position = finalPos;
         transform.rotation = rotation;
     }
