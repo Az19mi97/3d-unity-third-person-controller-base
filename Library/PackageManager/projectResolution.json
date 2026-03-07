@@ -1,12 +1,12 @@
 {
   "context": {
     "projectPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Packages",
-    "unityVersion": "6000.2.2f1"
+    "unityVersion": "6000.3.10f1"
   },
   "inputs": [
     "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Packages/manifest.json",
     "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Packages/packages-lock.json",
-    "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/BuiltInPackagesCombined.sha1"
+    "/Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
     "com.unity.collab-proxy@2.11.4": {
@@ -28,60 +28,68 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.inputsystem@1.14.2": {
+    "com.unity.inputsystem@1.18.0": {
       "name": "com.unity.inputsystem",
       "displayName": "Input System",
-      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.inputsystem@be6c4fd0abf5",
-      "fingerprint": "be6c4fd0abf5b9b45f956b97294032a67f3c2f4d",
-      "editorCompatibility": "2021.3.0a1",
-      "version": "1.14.2",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.inputsystem@57d0e36f6123",
+      "fingerprint": "57d0e36f61231bc5a2579f37d81bf6fa02f40adc",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.18.0",
       "source": "registry",
       "testable": false
     },
-    "com.unity.multiplayer.center@1.0.0": {
+    "com.unity.multiplayer.center@1.0.1": {
       "name": "com.unity.multiplayer.center",
       "displayName": "Multiplayer Center",
-      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.multiplayer.center@f3fb577b3546",
-      "fingerprint": "f3fb577b3546594b97b8cc34307cd621f60f1c73",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a",
+      "fingerprint": "f01f4ba8d00afa4e957bddf0fcd1612a564401ff",
       "editorCompatibility": "6000.0.0a1",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.timeline@1.8.9": {
+    "com.unity.timeline@1.8.10": {
       "name": "com.unity.timeline",
       "displayName": "Timeline",
-      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.timeline@6b9e48457ddb",
-      "fingerprint": "6b9e48457ddb4f64813d77fd77efc79a8f3102ae",
-      "editorCompatibility": "2021.3.0a1",
-      "version": "1.8.9",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.timeline@7f8b2fb101b6",
+      "fingerprint": "7f8b2fb101b6053cc7472330401e94ff0c17b204",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.8.10",
       "source": "registry",
       "testable": false
     },
     "com.unity.ugui@2.0.0": {
       "name": "com.unity.ugui",
-      "displayName": "Unity UI",
-      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.ugui@754dbde2be27",
-      "fingerprint": "754dbde2be278c90c6f2804c14a59bb1c6cff4ba",
+      "displayName": "uGUI",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.ugui@bb329a87fcdc",
+      "fingerprint": "bb329a87fcdc5d55e815f3d804764d676674047e",
       "editorCompatibility": "2019.2.0a1",
       "version": "2.0.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.visualscripting@1.9.7": {
+    "com.unity.visualscripting@1.9.9": {
       "name": "com.unity.visualscripting",
       "displayName": "Visual Scripting",
-      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.visualscripting@6279e2b7c485",
-      "fingerprint": "6279e2b7c4858e56cca7f367cd38c49ef66778c9",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.visualscripting@191c0d7e3b69",
+      "fingerprint": "191c0d7e3b69bc0df1b6fed3a997c4c3a765ef6a",
       "editorCompatibility": "2021.3.0a1",
-      "version": "1.9.7",
+      "version": "1.9.9",
       "source": "registry",
       "testable": false
     },
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "displayName": "Accessibility",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.accessibility",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.accessibility",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.adaptiveperformance@1.0.0": {
+      "name": "com.unity.modules.adaptiveperformance",
+      "displayName": "Adaptive Performance",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.adaptiveperformance",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -89,7 +97,7 @@
     "com.unity.modules.ai@1.0.0": {
       "name": "com.unity.modules.ai",
       "displayName": "AI",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.ai",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.ai",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -97,7 +105,7 @@
     "com.unity.modules.androidjni@1.0.0": {
       "name": "com.unity.modules.androidjni",
       "displayName": "Android JNI",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.androidjni",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.androidjni",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -105,7 +113,7 @@
     "com.unity.modules.animation@1.0.0": {
       "name": "com.unity.modules.animation",
       "displayName": "Animation",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.animation",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.animation",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -113,7 +121,7 @@
     "com.unity.modules.assetbundle@1.0.0": {
       "name": "com.unity.modules.assetbundle",
       "displayName": "Asset Bundle",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.assetbundle",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.assetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -121,7 +129,7 @@
     "com.unity.modules.audio@1.0.0": {
       "name": "com.unity.modules.audio",
       "displayName": "Audio",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.audio",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.audio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -129,7 +137,7 @@
     "com.unity.modules.cloth@1.0.0": {
       "name": "com.unity.modules.cloth",
       "displayName": "Cloth",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.cloth",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.cloth",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -137,7 +145,7 @@
     "com.unity.modules.director@1.0.0": {
       "name": "com.unity.modules.director",
       "displayName": "Director",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.director",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.director",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -145,7 +153,7 @@
     "com.unity.modules.imageconversion@1.0.0": {
       "name": "com.unity.modules.imageconversion",
       "displayName": "Image Conversion",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.imageconversion",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.imageconversion",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -153,7 +161,7 @@
     "com.unity.modules.imgui@1.0.0": {
       "name": "com.unity.modules.imgui",
       "displayName": "IMGUI",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.imgui",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.imgui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -161,7 +169,7 @@
     "com.unity.modules.jsonserialize@1.0.0": {
       "name": "com.unity.modules.jsonserialize",
       "displayName": "JSONSerialize",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.jsonserialize",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.jsonserialize",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -169,7 +177,7 @@
     "com.unity.modules.particlesystem@1.0.0": {
       "name": "com.unity.modules.particlesystem",
       "displayName": "Particle System",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.particlesystem",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.particlesystem",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -177,7 +185,7 @@
     "com.unity.modules.physics@1.0.0": {
       "name": "com.unity.modules.physics",
       "displayName": "Physics",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.physics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -185,7 +193,7 @@
     "com.unity.modules.physics2d@1.0.0": {
       "name": "com.unity.modules.physics2d",
       "displayName": "Physics 2D",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.physics2d",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.physics2d",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -193,7 +201,7 @@
     "com.unity.modules.screencapture@1.0.0": {
       "name": "com.unity.modules.screencapture",
       "displayName": "Screen Capture",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.screencapture",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.screencapture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -201,7 +209,7 @@
     "com.unity.modules.terrain@1.0.0": {
       "name": "com.unity.modules.terrain",
       "displayName": "Terrain",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrain",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.terrain",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -209,7 +217,7 @@
     "com.unity.modules.terrainphysics@1.0.0": {
       "name": "com.unity.modules.terrainphysics",
       "displayName": "Terrain Physics",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.terrainphysics",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.terrainphysics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -217,7 +225,7 @@
     "com.unity.modules.tilemap@1.0.0": {
       "name": "com.unity.modules.tilemap",
       "displayName": "Tilemap",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.tilemap",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.tilemap",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -225,7 +233,7 @@
     "com.unity.modules.ui@1.0.0": {
       "name": "com.unity.modules.ui",
       "displayName": "UI",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.ui",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.ui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -233,7 +241,7 @@
     "com.unity.modules.uielements@1.0.0": {
       "name": "com.unity.modules.uielements",
       "displayName": "UIElements",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.uielements",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.uielements",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -241,7 +249,7 @@
     "com.unity.modules.umbra@1.0.0": {
       "name": "com.unity.modules.umbra",
       "displayName": "Umbra",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.umbra",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.umbra",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -249,7 +257,7 @@
     "com.unity.modules.unityanalytics@1.0.0": {
       "name": "com.unity.modules.unityanalytics",
       "displayName": "Unity Analytics",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unityanalytics",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.unityanalytics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -257,7 +265,7 @@
     "com.unity.modules.unitywebrequest@1.0.0": {
       "name": "com.unity.modules.unitywebrequest",
       "displayName": "Unity Web Request",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequest",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.unitywebrequest",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -265,7 +273,7 @@
     "com.unity.modules.unitywebrequestassetbundle@1.0.0": {
       "name": "com.unity.modules.unitywebrequestassetbundle",
       "displayName": "Unity Web Request Asset Bundle",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestassetbundle",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -273,7 +281,7 @@
     "com.unity.modules.unitywebrequestaudio@1.0.0": {
       "name": "com.unity.modules.unitywebrequestaudio",
       "displayName": "Unity Web Request Audio",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestaudio",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.unitywebrequestaudio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -281,7 +289,7 @@
     "com.unity.modules.unitywebrequesttexture@1.0.0": {
       "name": "com.unity.modules.unitywebrequesttexture",
       "displayName": "Unity Web Request Texture",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequesttexture",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.unitywebrequesttexture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -289,7 +297,15 @@
     "com.unity.modules.unitywebrequestwww@1.0.0": {
       "name": "com.unity.modules.unitywebrequestwww",
       "displayName": "Unity Web Request WWW",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.unitywebrequestwww",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.unitywebrequestwww",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.vectorgraphics@1.0.0": {
+      "name": "com.unity.modules.vectorgraphics",
+      "displayName": "Vector Graphics",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.vectorgraphics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -297,7 +313,7 @@
     "com.unity.modules.vehicles@1.0.0": {
       "name": "com.unity.modules.vehicles",
       "displayName": "Vehicles",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.vehicles",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.vehicles",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -305,7 +321,7 @@
     "com.unity.modules.video@1.0.0": {
       "name": "com.unity.modules.video",
       "displayName": "Video",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.video",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.video",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -313,7 +329,7 @@
     "com.unity.modules.vr@1.0.0": {
       "name": "com.unity.modules.vr",
       "displayName": "VR",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.vr",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.vr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -321,7 +337,7 @@
     "com.unity.modules.wind@1.0.0": {
       "name": "com.unity.modules.wind",
       "displayName": "Wind",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.wind",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.wind",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -329,7 +345,7 @@
     "com.unity.modules.xr@1.0.0": {
       "name": "com.unity.modules.xr",
       "displayName": "XR",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.xr",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.xr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -337,7 +353,7 @@
     "com.unity.modules.subsystems@1.0.0": {
       "name": "com.unity.modules.subsystems",
       "displayName": "Subsystems",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.subsystems",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.subsystems",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -345,86 +361,86 @@
     "com.unity.modules.hierarchycore@1.0.0": {
       "name": "com.unity.modules.hierarchycore",
       "displayName": "Hierarchy Core",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.2.2f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.hierarchycore",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.modules.hierarchycore",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.ide.visualstudio@2.0.23": {
+    "com.unity.ide.visualstudio@2.0.26": {
       "name": "com.unity.ide.visualstudio",
       "displayName": "Visual Studio Editor",
-      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.ide.visualstudio@198cdf337d13",
-      "fingerprint": "198cdf337d13c83ca953581515630d66b779e92b",
-      "editorCompatibility": "2019.4.25f1",
-      "version": "2.0.23",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.ide.visualstudio@a99d56dec63f",
+      "fingerprint": "a99d56dec63ffb3a911a5a9bce9b77ba862a601c",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "2.0.26",
       "source": "registry",
       "testable": false
     },
-    "com.unity.ide.rider@3.0.36": {
+    "com.unity.ide.rider@3.0.39": {
       "name": "com.unity.ide.rider",
       "displayName": "JetBrains Rider Editor",
-      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.ide.rider@4d374c7eb6db",
-      "fingerprint": "4d374c7eb6db6907c7e6925e3086c3c73f926e13",
-      "editorCompatibility": "2019.4.6f1",
-      "version": "3.0.36",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.ide.rider@4504839d03f7",
+      "fingerprint": "4504839d03f7a5a4495357084a0ffd6e439892cf",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "3.0.39",
       "source": "registry",
       "testable": false
     },
-    "com.unity.editorcoroutines@1.0.0": {
+    "com.unity.editorcoroutines@1.0.1": {
       "name": "com.unity.editorcoroutines",
       "displayName": "Editor Coroutines",
-      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.editorcoroutines@7d48783e7b8c",
-      "fingerprint": "7d48783e7b8cfcee5f8ef9ba787ed0d9dad4ebca",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.editorcoroutines@54394ed3283c",
+      "fingerprint": "54394ed3283c1d492d6a80602b05b04bd0863f8b",
       "editorCompatibility": "2018.1.0a1",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "registry",
       "testable": false
     },
-    "com.unity.performance.profile-analyzer@1.2.3": {
+    "com.unity.performance.profile-analyzer@1.3.1": {
       "name": "com.unity.performance.profile-analyzer",
       "displayName": "Profile Analyzer",
-      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.performance.profile-analyzer@a68e7bc84997",
-      "fingerprint": "a68e7bc849973d943853204178d08a2bc7656ffe",
-      "editorCompatibility": "2020.3.0a1",
-      "version": "1.2.3",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.performance.profile-analyzer@311968ce4be7",
+      "fingerprint": "311968ce4be7b8c45e37a6c865e744fb1b7a7b3e",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.3.1",
       "source": "registry",
       "testable": false
     },
-    "com.unity.test-framework@1.5.1": {
+    "com.unity.test-framework@1.6.0": {
       "name": "com.unity.test-framework",
       "displayName": "Test Framework",
-      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.test-framework@a6f5be5f149c",
-      "fingerprint": "a6f5be5f149c799640cce1ac6aa4057426adc0c7",
-      "editorCompatibility": "2022.3.0a1",
-      "version": "1.5.1",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.test-framework@0b7a23ab2e1d",
+      "fingerprint": "0b7a23ab2e1d74441a5afdffa63f417929756957",
+      "editorCompatibility": "6000.0.44f1",
+      "version": "1.6.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.testtools.codecoverage@1.2.6": {
+    "com.unity.testtools.codecoverage@1.3.0": {
       "name": "com.unity.testtools.codecoverage",
       "displayName": "Code Coverage",
-      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.testtools.codecoverage@205a02cbcb39",
-      "fingerprint": "205a02cbcb39584f20b51c49b853047aceb3a3a7",
-      "editorCompatibility": "2019.3.0a1",
-      "version": "1.2.6",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.testtools.codecoverage@19a841221620",
+      "fingerprint": "19a8412216200955baa50132d98cb9fe4770e401",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.3.0",
       "source": "registry",
       "testable": false
     },
-    "com.unity.settings-manager@2.1.0": {
+    "com.unity.settings-manager@2.1.1": {
       "name": "com.unity.settings-manager",
       "displayName": "Settings Manager",
-      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.settings-manager@41738c275190",
-      "fingerprint": "41738c27519039c335849eb78949382f4d7a3544",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.settings-manager@0b8638c5ce86",
+      "fingerprint": "0b8638c5ce86009d785da17b17aaf629047f64ce",
       "editorCompatibility": "2022.3.0a1",
-      "version": "2.1.0",
+      "version": "2.1.1",
       "source": "registry",
       "testable": false
     },
     "com.unity.ext.nunit@2.0.5": {
       "name": "com.unity.ext.nunit",
       "displayName": "Custom NUnit",
-      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.ext.nunit@031a54704bff",
-      "fingerprint": "031a54704bffe39e6a0324909f8eaa4565bdebf2",
+      "resolvedPath": "/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/PackageCache/com.unity.ext.nunit@d8c07649098d",
+      "fingerprint": "d8c07649098d3936da4c8ab500960c1776b44592",
       "editorCompatibility": "2019.4.0a1",
       "version": "2.0.5",
       "source": "builtin",
