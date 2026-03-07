@@ -5,6 +5,10 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     public Transform cameraTransform;
+
+    [Header("Mobile")]
+    public MobileJoystick mobileJoystick;
+
     [Header("Movement")]
     public float moveSpeed = 6f;
     public float sprintMultiplier = 1.5f;
@@ -15,6 +19,10 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheck;
     public float groundDistance = 0.3f;
     public LayerMask groundLayer;
+
+    [Header("PC/Mac Buttons (optional)")]
+    public GameObject jumpButton;
+    public GameObject sprintButton;
 
     private Rigidbody rb;
     private PlayerControls controls;
@@ -30,13 +38,32 @@ public class PlayerController : MonoBehaviour
         rb.freezeRotation = true;
     }
 
+    void Start()
+    {
+        // Vis kun knapper på mobile (Android/iOS)
+        if (Application.isMobilePlatform)
+        {
+            if (jumpButton != null) jumpButton.SetActive(true);
+            if (sprintButton != null) sprintButton.SetActive(true);
+        }
+        else
+        {
+            if (jumpButton != null) jumpButton.SetActive(false);
+            if (sprintButton != null) sprintButton.SetActive(false);
+        }
+
+        // Fjerne den hvide firkant
+        GameObject whiteBox = GameObject.Find("WhiteBox");
+        if (whiteBox != null)
+            Destroy(whiteBox);
+    }
+
     void OnEnable()
     {
         controls.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
         controls.Player.Move.canceled += ctx => moveInput = Vector2.zero;
 
         controls.Player.Jump.performed += ctx => Jump();
-
         controls.Player.Sprint.performed += ctx => sprinting = true;
         controls.Player.Sprint.canceled += ctx => sprinting = false;
 
@@ -56,7 +83,8 @@ public class PlayerController : MonoBehaviour
 
     void MovePlayer()
     {
-        if (Keyboard.current.zKey.isPressed)
+        // PC kamera rotation stop
+        if (Keyboard.current != null && Keyboard.current.zKey.isPressed)
             return;
 
         Vector3 camForward = cameraTransform.forward;
@@ -68,7 +96,19 @@ public class PlayerController : MonoBehaviour
         camForward.Normalize();
         camRight.Normalize();
 
-        Vector3 direction = camForward * moveInput.y + camRight * moveInput.x;
+        Vector2 input = moveInput;
+
+        // MOBILE joystick override
+        if (mobileJoystick != null)
+        {
+            float h = mobileJoystick.Horizontal();
+            float v = mobileJoystick.Vertical();
+
+            if (Mathf.Abs(h) > 0.01f || Mathf.Abs(v) > 0.01f)
+                input = new Vector2(h, v);
+        }
+
+        Vector3 direction = camForward * input.y + camRight * input.x;
 
         float speed = sprinting ? moveSpeed * sprintMultiplier : moveSpeed;
 
@@ -93,12 +133,28 @@ public class PlayerController : MonoBehaviour
     void Jump()
     {
         if (!isGrounded) return;
-
         rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
     }
 
     void CheckGround()
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundLayer);
+    }
+
+    // UI BUTTONS (PC + MOBILE)
+
+    public void JumpButton()
+    {
+        Jump();
+    }
+
+    public void SprintButtonDown()
+    {
+        sprinting = true;
+    }
+
+    public void SprintButtonUp()
+    {
+        sprinting = false;
     }
 }

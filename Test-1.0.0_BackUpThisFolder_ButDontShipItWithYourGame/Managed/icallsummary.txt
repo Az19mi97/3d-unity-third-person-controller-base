@@ -435,6 +435,7 @@ UnityEngine.GameObject::GetComponentsInternal_Injected
 UnityEngine.GameObject::get_activeInHierarchy_Injected
 UnityEngine.GameObject::get_activeSelf_Injected
 UnityEngine.GameObject::get_layer_Injected
+UnityEngine.GameObject::Find_Injected
 UnityEngine.GameObject::GetComponentInChildren_Injected
 UnityEngine.GameObject::GetComponentInParent_Injected
 UnityEngine.GameObject::GetComponent_Injected
@@ -767,6 +768,7 @@ UnityEngine.Quaternion::Internal_Inverse_Injected
 UnityEngine.Quaternion::Internal_LookRotation_Injected
 UnityEngine.Quaternion::Internal_Slerp_Injected
 UnityEngine.Quaternion::Internal_ToAxisAngleRad
+UnityEngine.Quaternion::Internal_ToEulerRad_Injected
 UnityEngine.Random::RandomRangeInt
 UnityEngine.RectOffset::get_bottom_Injected
 UnityEngine.RectOffset::get_horizontal_Injected
@@ -890,6 +892,7 @@ UnityEngine.SystemInfo::GetMaxTextureSize
 UnityEngine.SystemInfo::MaxGraphicsBufferSize
 UnityEngine.SystemInfo::GetDeviceModel_Injected
 UnityEngine.SystemInfo::GetOperatingSystem_Injected
+UnityEngine.SystemInfo::GetDeviceType
 UnityEngine.SystemInfo::GetCompatibleFormat
 UnityEngine.SystemInfo::GetGraphicsFormat
 UnityEngine.SystemInfo::GetOperatingSystemFamily
@@ -1031,9 +1034,7 @@ UnityEngine.Transform::get_childCount_Injected
 UnityEngine.Transform::FindRelativeTransformWithPath_Injected
 UnityEngine.Transform::GetChild_Injected
 UnityEngine.Transform::GetParent_Injected
-UnityEngine.Transform::Internal_LookAt_Injected
 UnityEngine.Transform::InverseTransformPoint_Injected
-UnityEngine.Transform::RotateAroundInternal_Injected
 UnityEngine.Transform::SetAsFirstSibling_Injected
 UnityEngine.Transform::SetLocalPositionAndRotation_Injected
 UnityEngine.Transform::SetParent_Injected
@@ -1052,6 +1053,7 @@ UnityEngine.Transform::set_localPosition_Injected
 UnityEngine.Transform::set_localRotation_Injected
 UnityEngine.Transform::set_localScale_Injected
 UnityEngine.Transform::set_position_Injected
+UnityEngine.Transform::set_rotation_Injected
 UnityEngine.U2D.SpriteAtlas::CanBindTo_Injected
 UnityEngine.U2D.SpriteAtlasManager::Register_Injected
 UnityEngine.UIElements.Layout.LayoutCacheData::ClearCachedMeasurements

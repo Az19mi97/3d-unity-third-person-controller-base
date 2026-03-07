@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-
+using UnityEngine.InputSystem.EnhancedTouch;
+using Touch = UnityEngine.InputSystem.EnhancedTouch.Touch;
 public class CameraFollow : MonoBehaviour
 {
     [Header("Camera Settings")]
@@ -20,17 +21,33 @@ public class CameraFollow : MonoBehaviour
         Vector3 angles = transform.eulerAngles;
         yaw = angles.y;
         pitch = angles.x;
+        EnhancedTouchSupport.Enable();
     }
-
     void LateUpdate()
     {
         if (target == null) return;
 
         HandleMouseRotation();
         HandleKeyboardRotation();
+        HandleTouchRotation();   // NEW
+
         FollowTarget();
     }
 
+    void HandleTouchRotation()
+    {
+        if (Touch.activeTouches.Count == 1)
+        {
+            var touch = Touch.activeTouches[0];
+
+            Vector2 delta = touch.delta * mouseSensitivity * 0.5f;
+
+            yaw += delta.x;
+            pitch -= delta.y;
+
+            pitch = Mathf.Clamp(pitch, minVerticalAngle, maxVerticalAngle);
+        }
+    }
     void HandleMouseRotation()
     {
         if (Mouse.current.rightButton.isPressed)
