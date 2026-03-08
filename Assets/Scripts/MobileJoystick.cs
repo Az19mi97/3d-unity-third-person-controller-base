@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using System.Collections;
 
 public class MobileJoystick : MonoBehaviour, IDragHandler, IPointerDownHandler, IPointerUpHandler
 {
@@ -16,29 +17,26 @@ public class MobileJoystick : MonoBehaviour, IDragHandler, IPointerDownHandler, 
     private Vector2 inputVector;
 
     void Start()
-{
-    canvasGroup = GetComponent<CanvasGroup>();
-
-    // Tjek at references er tildelt
-    if (joystickBackground == null || joystickKnob == null)
     {
-        Debug.LogWarning("MobileJoystick: joystickBackground eller joystickKnob er ikke tildelt i inspector!");
-        return; // stop hvis de mangler
+        canvasGroup = GetComponent<CanvasGroup>();
+
+        if (joystickBackground == null || joystickKnob == null)
+        {
+            Debug.LogWarning("MobileJoystick: Assign joystickBackground and joystickKnob in Inspector!");
+            return;
+        }
+
+        // Start skjult
+        joystickBackground.gameObject.SetActive(false);
+        joystickKnob.gameObject.SetActive(false);
+        canvasGroup.alpha = 0;
     }
-
-    // Start skjult
-    joystickBackground.gameObject.SetActive(false);
-    joystickKnob.gameObject.SetActive(false);
-    canvasGroup.alpha = 0;
-}
-
-    
 
     public void OnPointerDown(PointerEventData eventData)
     {
         joystickBackground.position = eventData.position;
-
         joystickBackground.gameObject.SetActive(true);
+        joystickKnob.gameObject.SetActive(true);
         canvasGroup.alpha = 1;
 
         OnDrag(eventData);
@@ -47,7 +45,6 @@ public class MobileJoystick : MonoBehaviour, IDragHandler, IPointerDownHandler, 
     public void OnDrag(PointerEventData eventData)
     {
         Vector2 pos;
-
         RectTransformUtility.ScreenPointToLocalPointInRectangle(
             joystickBackground,
             eventData.position,
@@ -56,7 +53,8 @@ public class MobileJoystick : MonoBehaviour, IDragHandler, IPointerDownHandler, 
         );
 
         inputVector = pos / radius;
-        inputVector = (inputVector.magnitude > 1f) ? inputVector.normalized : inputVector;
+        if (inputVector.magnitude > 1f)
+            inputVector = inputVector.normalized;
 
         joystickKnob.anchoredPosition = inputVector * radius;
     }
@@ -65,11 +63,10 @@ public class MobileJoystick : MonoBehaviour, IDragHandler, IPointerDownHandler, 
     {
         inputVector = Vector2.zero;
         joystickKnob.anchoredPosition = Vector2.zero;
-
         StartCoroutine(FadeOut());
     }
 
-    System.Collections.IEnumerator FadeOut()
+    IEnumerator FadeOut()
     {
         while (canvasGroup.alpha > 0)
         {
@@ -78,15 +75,9 @@ public class MobileJoystick : MonoBehaviour, IDragHandler, IPointerDownHandler, 
         }
 
         joystickBackground.gameObject.SetActive(false);
+        joystickKnob.gameObject.SetActive(false);
     }
 
-    public float Horizontal()
-    {
-        return inputVector.x;
-    }
-
-    public float Vertical()
-    {
-        return inputVector.y;
-    }
+    public float Horizontal() => inputVector.x;
+    public float Vertical() => inputVector.y;
 }

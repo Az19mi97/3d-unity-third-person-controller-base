@@ -65,6 +65,7 @@ extern void U3CFadeOutU3Ed__10_System_Collections_IEnumerator_Reset_m8DCE695611D
 extern void U3CFadeOutU3Ed__10_System_Collections_IEnumerator_get_Current_m58241DA87EF37001BEF721300B9C38DC71F1F443 (void);
 extern void PlayerController_Awake_m82639826DE098DC447C79B43900C5F2A630B3DC3 (void);
 extern void PlayerController_Start_m1D83076E8B136A71051F2F02545EE04947D3A8CF (void);
+extern void PlayerController_PositionButtonBottomRight_mF2CB5827415FDFDFE53043A7D3D986DB9885F599 (void);
 extern void PlayerController_OnEnable_m1558047F72022F1A32FC373A927E122D1F3CF5CC (void);
 extern void PlayerController_OnDisable_m16524B89F1DDB4EB1E201CCEB7E9502967BF57DB (void);
 extern void PlayerController_FixedUpdate_m6D906D8B13844542B81CC49BA19760F747CEC8C0 (void);
@@ -76,14 +77,14 @@ extern void PlayerController_JumpButton_mBA60D78EA97DBBB333B01ABA8B884A0F7ED05D2
 extern void PlayerController_SprintButtonDown_m8337354DAB5B3ED8920059286FD10D9FCAEDFA14 (void);
 extern void PlayerController_SprintButtonUp_m9AA19D69C315C194FE6D1869B8C573668F5C743F (void);
 extern void PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33 (void);
-extern void PlayerController_U3COnEnableU3Eb__19_0_mA8B50E6185EBF1D43F90020838C4E09EE11D8E41 (void);
-extern void PlayerController_U3COnEnableU3Eb__19_1_m8BE3D337E6DE819DF7829150E84F54E6E13FCB1C (void);
-extern void PlayerController_U3COnEnableU3Eb__19_2_m315DDCF7A614F4B505F6BBBBEEDBDA17F87B29F3 (void);
-extern void PlayerController_U3COnEnableU3Eb__19_3_m2614C804EF216F74DBE5095EEBED3666999DD5C7 (void);
-extern void PlayerController_U3COnEnableU3Eb__19_4_m1D83240397854E927B1DB0F7649A8AB67C5AE57C (void);
+extern void PlayerController_U3COnEnableU3Eb__20_0_m78B94CBB718E9309C6EDA3A19D182D0A7718A9F9 (void);
+extern void PlayerController_U3COnEnableU3Eb__20_1_m370517CA09BB15F40B802D0205DCD820548EBB83 (void);
+extern void PlayerController_U3COnEnableU3Eb__20_2_mAE7F92DAA128528B925F10E5DF229AD1A4A15ED8 (void);
+extern void PlayerController_U3COnEnableU3Eb__20_3_m9A3B1FD20EA4C293C9E3E1E52FEC7D28DBDCB2C7 (void);
+extern void PlayerController_U3COnEnableU3Eb__20_4_m6205424D65562D33DE1562A18C53755AD4A8C84F (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[83] = 
+static Il2CppMethodPointer s_methodPointers[84] = 
 {
 	PlayerControls_get_asset_mF8BF9F6394D11704AF249BD540F07F6D5B6FEF32,
 	PlayerControls__ctor_m332F79A4E651845074B3ABFAEF8F6F3604244309,
@@ -150,6 +151,7 @@ static Il2CppMethodPointer s_methodPointers[83] =
 	U3CFadeOutU3Ed__10_System_Collections_IEnumerator_get_Current_m58241DA87EF37001BEF721300B9C38DC71F1F443,
 	PlayerController_Awake_m82639826DE098DC447C79B43900C5F2A630B3DC3,
 	PlayerController_Start_m1D83076E8B136A71051F2F02545EE04947D3A8CF,
+	PlayerController_PositionButtonBottomRight_mF2CB5827415FDFDFE53043A7D3D986DB9885F599,
 	PlayerController_OnEnable_m1558047F72022F1A32FC373A927E122D1F3CF5CC,
 	PlayerController_OnDisable_m16524B89F1DDB4EB1E201CCEB7E9502967BF57DB,
 	PlayerController_FixedUpdate_m6D906D8B13844542B81CC49BA19760F747CEC8C0,
@@ -161,11 +163,11 @@ static Il2CppMethodPointer s_methodPointers[83] =
 	PlayerController_SprintButtonDown_m8337354DAB5B3ED8920059286FD10D9FCAEDFA14,
 	PlayerController_SprintButtonUp_m9AA19D69C315C194FE6D1869B8C573668F5C743F,
 	PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33,
-	PlayerController_U3COnEnableU3Eb__19_0_mA8B50E6185EBF1D43F90020838C4E09EE11D8E41,
-	PlayerController_U3COnEnableU3Eb__19_1_m8BE3D337E6DE819DF7829150E84F54E6E13FCB1C,
-	PlayerController_U3COnEnableU3Eb__19_2_m315DDCF7A614F4B505F6BBBBEEDBDA17F87B29F3,
-	PlayerController_U3COnEnableU3Eb__19_3_m2614C804EF216F74DBE5095EEBED3666999DD5C7,
-	PlayerController_U3COnEnableU3Eb__19_4_m1D83240397854E927B1DB0F7649A8AB67C5AE57C,
+	PlayerController_U3COnEnableU3Eb__20_0_m78B94CBB718E9309C6EDA3A19D182D0A7718A9F9,
+	PlayerController_U3COnEnableU3Eb__20_1_m370517CA09BB15F40B802D0205DCD820548EBB83,
+	PlayerController_U3COnEnableU3Eb__20_2_mAE7F92DAA128528B925F10E5DF229AD1A4A15ED8,
+	PlayerController_U3COnEnableU3Eb__20_3_m9A3B1FD20EA4C293C9E3E1E52FEC7D28DBDCB2C7,
+	PlayerController_U3COnEnableU3Eb__20_4_m6205424D65562D33DE1562A18C53755AD4A8C84F,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
@@ -204,7 +206,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[16] =
 	{ 0x06000022, PlayerActions_RemoveCallbacks_mB0F13A750A00E204AD18CFF7FDA2DEF399665964_AdjustorThunk },
 	{ 0x06000023, PlayerActions_SetCallbacks_m8345AAE7651D4570C71B10CE7043F90A9AB30705_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[83] = 
+static const int32_t s_InvokerIndices[84] = 
 {
 	8370,
 	8518,
@@ -271,6 +273,7 @@ static const int32_t s_InvokerIndices[83] =
 	8370,
 	8518,
 	8518,
+	1524,
 	8518,
 	8518,
 	8518,
@@ -294,7 +297,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	83,
+	84,
 	s_methodPointers,
 	16,
 	s_adjustorThunks,

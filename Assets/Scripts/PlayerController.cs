@@ -42,38 +42,56 @@ public class PlayerController : MonoBehaviour
     }
 
   void Start()
+{
+    // Aktiver Enhanced Touch (kun relevant på mobile)
+    if (Application.isMobilePlatform)
+        EnhancedTouchSupport.Enable();
+
+    bool isMobile = Application.isMobilePlatform;
+
+    // Vis / skjul mobile controls
+    if (mobileControls != null)
+        mobileControls.SetActive(isMobile);
+
+    if (jumpButton != null)
     {
-        // Aktiver Enhanced Touch (kun relevant på mobile)
-        if (Application.isMobilePlatform)
-            EnhancedTouchSupport.Enable();
-
-        bool isMobile = Application.isMobilePlatform;
-
-        // Vis / skjul mobile controls
-        if (mobileControls != null)
-            mobileControls.SetActive(isMobile);
-
-        if (jumpButton != null)
-            jumpButton.SetActive(isMobile);
-
-        if (sprintButton != null)
-            sprintButton.SetActive(isMobile);
-
-        // Fjerne den hvide firkant hvis den eksisterer
-        GameObject whiteBox = GameObject.Find("WhiteBox");
-        if (whiteBox != null)
-            Destroy(whiteBox);
-
-        // Sikrer, at MobileJoystick ikke forsøger at bruge referencer på PC/Mac
-        if (!isMobile && mobileJoystick != null)
-        {
-            if (mobileJoystick.joystickBackground != null)
-                mobileJoystick.joystickBackground.gameObject.SetActive(false);
-            if (mobileJoystick.joystickKnob != null)
-                mobileJoystick.joystickKnob.gameObject.SetActive(false);
-        }
+        jumpButton.SetActive(isMobile);
+        if (isMobile)
+            PositionButtonBottomRight(jumpButton.GetComponent<RectTransform>(), 150, 150); // distance fra bottom/right
     }
 
+    if (sprintButton != null)
+    {
+        sprintButton.SetActive(isMobile);
+        if (isMobile)
+            PositionButtonBottomRight(sprintButton.GetComponent<RectTransform>(), 150, 300); // lidt ovenfor jump
+    }
+
+    // Fjerne den hvide firkant hvis den eksisterer
+    GameObject whiteBox = GameObject.Find("WhiteBox");
+    if (whiteBox != null)
+        Destroy(whiteBox);
+
+    // Skjul joystick på PC/Mac
+    if (!isMobile && mobileJoystick != null)
+    {
+        if (mobileJoystick.joystickBackground != null)
+            mobileJoystick.joystickBackground.gameObject.SetActive(false);
+        if (mobileJoystick.joystickKnob != null)
+            mobileJoystick.joystickKnob.gameObject.SetActive(false);
+    }
+}
+    /// Positioner knapper nederst til højre på skærmen
+    private void PositionButtonBottomRight(RectTransform button, float xOffset, float yOffset)
+    {
+        if (button == null) return;
+
+        button.anchorMin = new Vector2(1, 0);  // nederst højre
+        button.anchorMax = new Vector2(1, 0);
+        button.pivot = new Vector2(1, 0);
+
+        button.anchoredPosition = new Vector2(-xOffset, yOffset);
+    }
     void OnEnable()
     {
         controls.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();

@@ -123,10 +123,10 @@ IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____3A26A66F8303B8218EADE81A416DBC82DC05AFD8A5CEEC9C27F67A2AC570D087_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral163DCC8E458A1FCC2E86F0FD61BE2BCE27195238;
 IL2CPP_EXTERN_C String_t* _stringLiteral378F2A2277727E3F33599E270749A10E7C2B55E1;
-IL2CPP_EXTERN_C String_t* _stringLiteral392E3052CB03E8328AEFD7F95D102734AD769E6A;
 IL2CPP_EXTERN_C String_t* _stringLiteral45D73B31685B6AB2DE920E8A2459004F40B92475;
 IL2CPP_EXTERN_C String_t* _stringLiteral45EDE4DB19150515241E2FE6610B1490B1DED5C7;
 IL2CPP_EXTERN_C String_t* _stringLiteral503D77FA9CA9FAF95413A3E9B1701863311AD7D4;
+IL2CPP_EXTERN_C String_t* _stringLiteral57452CBC47B2C36E837B895CBD3E4130E48E76A7;
 IL2CPP_EXTERN_C String_t* _stringLiteral6B6496E27798FCE2C8A700E4357E4F091A2887F3;
 IL2CPP_EXTERN_C String_t* _stringLiteral70253F929BCE7F81DF1A5A1C0900BED744E86C9C;
 IL2CPP_EXTERN_C String_t* _stringLiteral871C50B2EA6F82F09B5B9A7EF8B17FDCA2EEE958;
@@ -138,6 +138,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisRigidbody_t268697
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m6EFD981A6E16E75C613385C0FD66FBB20F750E33_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m03CB1837888033766C9D91AEFB45597AACFF3EC1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_mA8FF95CB905221B78E3AC20FBBA69E37174B00DE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InputControl_1_ReadValue_m362E05F00FE8CF8FC52F0D673291907EC7FA6541_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mFBA90E51485BF008BDA5E78E7AC62FE6F11980DF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_mB32F0B01692694B5BD2DA8B17B90135D3D70A60A_RuntimeMethod_var;
@@ -145,11 +146,11 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_Contains_m03D9BED647388E75C8348372B4
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_m2D19B918459E72F2D16CA3E2098EF13BB06650B3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Remove_mE699E131EFC7AF68535A03214CA774DE13792299_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mDF62994CD94BFB517A2F90B237C497F5C8463286_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PlayerController_U3COnEnableU3Eb__19_0_mA8B50E6185EBF1D43F90020838C4E09EE11D8E41_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PlayerController_U3COnEnableU3Eb__19_1_m8BE3D337E6DE819DF7829150E84F54E6E13FCB1C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PlayerController_U3COnEnableU3Eb__19_2_m315DDCF7A614F4B505F6BBBBEEDBDA17F87B29F3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PlayerController_U3COnEnableU3Eb__19_3_m2614C804EF216F74DBE5095EEBED3666999DD5C7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* PlayerController_U3COnEnableU3Eb__19_4_m1D83240397854E927B1DB0F7649A8AB67C5AE57C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlayerController_U3COnEnableU3Eb__20_0_m78B94CBB718E9309C6EDA3A19D182D0A7718A9F9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlayerController_U3COnEnableU3Eb__20_1_m370517CA09BB15F40B802D0205DCD820548EBB83_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlayerController_U3COnEnableU3Eb__20_2_mAE7F92DAA128528B925F10E5DF229AD1A4A15ED8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlayerController_U3COnEnableU3Eb__20_3_m9A3B1FD20EA4C293C9E3E1E52FEC7D28DBDCB2C7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* PlayerController_U3COnEnableU3Eb__20_4_m6205424D65562D33DE1562A18C53755AD4A8C84F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ReadOnlyArray_1_get_Count_mA077D0A7CFB962691D184580F62EFDD66783EF52_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ReadOnlyArray_1_get_Item_mF89401BF1E594CF00433FFAC12A3B3D321A44B37_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CFadeOutU3Ed__10_System_Collections_IEnumerator_Reset_m8DCE695611DEE24C3213C74AA700500997238A46_RuntimeMethod_var;
@@ -1930,6 +1931,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ReadOnlyArray_1_get_Count
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Touch_t07A55E11962F143607E917F0B6FEFB36EE2DDA70 ReadOnlyArray_1_get_Item_mF89401BF1E594CF00433FFAC12A3B3D321A44B37_gshared (ReadOnlyArray_1_t3D5F71F2FAC15E8E7413E1B4BDCCA92D49962E72* __this, int32_t ___0_index, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 InputControl_1_ReadValue_m362E05F00FE8CF8FC52F0D673291907EC7FA6541_gshared (InputControl_1_tC164085710F2FAA9161295C9B7FE273AF893CF66* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 CallbackContext_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m454ADEAE74A5A469E011CF78D6303A1034659830_gshared (CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
 
@@ -2098,7 +2100,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerControls__ctor_m332F79A4E651845074
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_set_freezeRotation_m6D049F82E9133020C31EEFB35A179A56364325DC (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, bool ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Application_get_isMobilePlatform_mE0BBFDE72BBFE5877581FA67DDBBFC397608AFCA (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+inline RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_PositionButtonBottomRight_mF2CB5827415FDFDFE53043A7D3D986DB9885F599 (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_button, float ___1_xOffset, float ___2_yOffset, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300 (String_t* ___0_name, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransform_set_pivot_m79D0177D383D432A93C2615F1932B739B1C6E146 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PlayerActions_t9286FAD04EF1C276C8250C63258E2736FCA620AC PlayerControls_get_Player_m96BB30AA05635E9DD423476A3A45F2774B4BB612 (PlayerControls_t7EFF800E1E7E86137BD4DBD2F5C5D16BD2CA4D77* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerControls_Enable_mA3A1AC1C47796AB9C5A0428F3798DC4A93E9EB89 (PlayerControls_t7EFF800E1E7E86137BD4DBD2F5C5D16BD2CA4D77* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerControls_Disable_m3CEC474D7D0E86DFD816BF53FE9AE127E60EA425 (PlayerControls_t7EFF800E1E7E86137BD4DBD2F5C5D16BD2CA4D77* __this, const RuntimeMethod* method) ;
@@ -2109,7 +2120,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3_Normalize_mC749B887A4C74BA0A2E13E6377F17CCAEB0AADA8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MobileJoystick_Horizontal_m18734CAC884B998CADF9868A9FF6718BDCCA5B8E (MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MobileJoystick_Vertical_m1F94163D7C005382AE296E97DB6428A629615D9B (MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* __this, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_fixedDeltaTime_m43136893D00AF5D5FE80AD05609558F6E2381381 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Rigidbody_get_position_m4ECB79BDBBF8FD1EA572EDB792D3330DDED24691 (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, const RuntimeMethod* method) ;
@@ -4322,11 +4332,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJoystick_Start_mF4E37DDEBB62DE9D19
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisCanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094_mA3B0428368982ED39ADEBB220EE67D1E99D8B2D2_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral392E3052CB03E8328AEFD7F95D102734AD769E6A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral57452CBC47B2C36E837B895CBD3E4130E48E76A7);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:20>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:21>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_0;
 		L_0 = Component_GetComponent_TisCanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094_mA3B0428368982ED39ADEBB220EE67D1E99D8B2D2(__this, Component_GetComponent_TisCanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094_mA3B0428368982ED39ADEBB220EE67D1E99D8B2D2_RuntimeMethod_var);
 		__this->___canvasGroup = L_0;
@@ -4356,7 +4366,7 @@ IL_0028:
 	{
 		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:25>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral392E3052CB03E8328AEFD7F95D102734AD769E6A, NULL);
+		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral57452CBC47B2C36E837B895CBD3E4130E48E76A7, NULL);
 		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:26>
 		return;
 	}
@@ -4389,7 +4399,7 @@ IL_0033:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJoystick_OnPointerDown_mB5811DD74EB5A8675168466392D2D09D57A82D53 (MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:39>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:37>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___joystickBackground;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_1 = ___0_eventData;
 		NullCheck(L_1);
@@ -4399,21 +4409,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJoystick_OnPointerDown_mB5811DD74E
 		L_3 = Vector2_op_Implicit_m6D9CABB2C791A192867D7A4559D132BE86DD3EB7_inline(L_2, NULL);
 		NullCheck(L_0);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_0, L_3, NULL);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:41>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:38>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_4 = __this->___joystickBackground;
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
 		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_4, NULL);
 		NullCheck(L_5);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:42>
-		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_6 = __this->___canvasGroup;
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:39>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6 = __this->___joystickKnob;
 		NullCheck(L_6);
-		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_6, (1.0f), NULL);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:44>
-		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_7 = ___0_eventData;
-		MobileJoystick_OnDrag_m89CA08034FC681C7D0FE97969A3BD66E877F3083(__this, L_7, NULL);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:45>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
+		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_6, NULL);
+		NullCheck(L_7);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)1, NULL);
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:40>
+		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_8 = __this->___canvasGroup;
+		NullCheck(L_8);
+		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_8, (1.0f), NULL);
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:42>
+		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_9 = ___0_eventData;
+		MobileJoystick_OnDrag_m89CA08034FC681C7D0FE97969A3BD66E877F3083(__this, L_9, NULL);
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:43>
 		return;
 	}
 }
@@ -4428,18 +4445,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJoystick_OnDrag_m89CA08034FC681C7D
 	}
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* G_B2_0 = NULL;
-	MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* G_B1_0 = NULL;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B3_0;
-	memset((&G_B3_0), 0, sizeof(G_B3_0));
-	MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* G_B3_1 = NULL;
 	{
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:48>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:49>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:50>
 		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:51>
 		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:52>
 		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:53>
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:54>
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:55>
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:56>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___joystickBackground;
 		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_1 = ___0_eventData;
 		NullCheck(L_1);
@@ -4452,52 +4464,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJoystick_OnDrag_m89CA08034FC681C7D
 		il2cpp_codegen_runtime_class_init_inline(RectTransformUtility_t65C00A84A72F17D78B81F2E7D88C2AA98AB61244_il2cpp_TypeInfo_var);
 		bool L_5;
 		L_5 = RectTransformUtility_ScreenPointToLocalPointInRectangle_m01A75CAFB6D1019F1C65BA606635EAB10AF31195(L_0, L_2, L_4, (&V_0), NULL);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:58>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:55>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = V_0;
 		float L_7 = __this->___radius;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
 		L_8 = Vector2_op_Division_m57A2DCD71E0CE7420851D705D1951F9238902AAB_inline(L_6, L_7, NULL);
 		__this->___inputVector = L_8;
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:59>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:56>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_9 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___inputVector);
 		float L_10;
 		L_10 = Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_inline(L_9, NULL);
-		if ((((float)L_10) > ((float)(1.0f))))
+		if ((!(((float)L_10) > ((float)(1.0f)))))
 		{
-			G_B2_0 = __this;
-			goto IL_0047;
+			goto IL_004f;
 		}
-		G_B1_0 = __this;
 	}
 	{
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11 = __this->___inputVector;
-		G_B3_0 = L_11;
-		G_B3_1 = G_B1_0;
-		goto IL_0052;
-	}
-
-IL_0047:
-	{
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_12 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___inputVector);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13;
-		L_13 = Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_inline(L_12, NULL);
-		G_B3_0 = L_13;
-		G_B3_1 = G_B2_0;
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:57>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_11 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___inputVector);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_12;
+		L_12 = Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_inline(L_11, NULL);
+		__this->___inputVector = L_12;
 	}
 
-IL_0052:
+IL_004f:
 	{
-		NullCheck(G_B3_1);
-		G_B3_1->___inputVector = G_B3_0;
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:61>
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14 = __this->___joystickKnob;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15 = __this->___inputVector;
-		float L_16 = __this->___radius;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_17;
-		L_17 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_15, L_16, NULL);
-		NullCheck(L_14);
-		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_14, L_17, NULL);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:62>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:59>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_13 = __this->___joystickKnob;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14 = __this->___inputVector;
+		float L_15 = __this->___radius;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16;
+		L_16 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_14, L_15, NULL);
+		NullCheck(L_13);
+		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_13, L_16, NULL);
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:60>
 		return;
 	}
 }
@@ -4505,22 +4505,22 @@ IL_0052:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJoystick_OnPointerUp_mBCD52500415CDFC4473B1BE5C15ECEE819B55F3F (MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:66>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:64>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
 		L_0 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		__this->___inputVector = L_0;
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:67>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:65>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = __this->___joystickKnob;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
 		L_2 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		NullCheck(L_1);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_1, L_2, NULL);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:69>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:66>
 		RuntimeObject* L_3;
 		L_3 = MobileJoystick_FadeOut_m9BE06CA9198B10F215DF5F606401EA82EF18BE35(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_4;
 		L_4 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_3, NULL);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:70>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:67>
 		return;
 	}
 }
@@ -4547,7 +4547,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MobileJoystick_FadeOut_m9BE06C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MobileJoystick_Horizontal_m18734CAC884B998CADF9868A9FF6718BDCCA5B8E (MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:85>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:81>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_0 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___inputVector);
 		float L_1 = L_0->___x;
 		return L_1;
@@ -4557,7 +4557,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MobileJoystick_Horizontal_m18734CAC884B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MobileJoystick_Vertical_m1F94163D7C005382AE296E97DB6428A629615D9B (MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:90>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:82>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_0 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___inputVector);
 		float L_1 = L_0->___y;
 		return L_1;
@@ -4567,9 +4567,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float MobileJoystick_Vertical_m1F94163D7C0053
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MobileJoystick__ctor_mC5F5A111E1879345D5494EB0ED8A1AE565A3F77D (MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:12>
-		__this->___radius = (120.0f);
 		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:13>
+		__this->___radius = (120.0f);
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:14>
 		__this->___fadeSpeed = (10.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -4635,7 +4635,7 @@ IL_0017:
 
 IL_0020:
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:76>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:73>
 		MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* L_4 = V_1;
 		NullCheck(L_4);
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_5 = L_4->___canvasGroup;
@@ -4650,7 +4650,7 @@ IL_0020:
 		float L_10 = L_9->___fadeSpeed;
 		NullCheck(L_6);
 		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_6, ((float)il2cpp_codegen_subtract(L_7, ((float)il2cpp_codegen_multiply(L_8, L_10)))), NULL);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:77>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:74>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -4664,7 +4664,7 @@ IL_004e:
 
 IL_0055:
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:74>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:71>
 		MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* L_11 = V_1;
 		NullCheck(L_11);
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_12 = L_11->___canvasGroup;
@@ -4677,7 +4677,7 @@ IL_0055:
 		}
 	}
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:80>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:77>
 		MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* L_14 = V_1;
 		NullCheck(L_14);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_15 = L_14->___joystickBackground;
@@ -4686,7 +4686,16 @@ IL_0055:
 		L_16 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_15, NULL);
 		NullCheck(L_16);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)0, NULL);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:81>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:78>
+		MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* L_17 = V_1;
+		NullCheck(L_17);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_18 = L_17->___joystickKnob;
+		NullCheck(L_18);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19;
+		L_19 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_18, NULL);
+		NullCheck(L_19);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_19, (bool)0, NULL);
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/MobileJoystick.cs:79>
 		return (bool)0;
 	}
 }
@@ -4759,6 +4768,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_Start_m1D83076E8B136A71
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6B6496E27798FCE2C8A700E4357E4F091A2887F3);
 		s_Il2CppMethodInitialized = true;
@@ -4814,123 +4824,125 @@ IL_002c:
 		L_7 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_7)
 		{
-			goto IL_0046;
+			goto IL_0064;
 		}
 	}
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:57>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:58>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___jumpButton;
 		bool L_9 = V_0;
 		NullCheck(L_8);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, L_9, NULL);
-	}
-
-IL_0046:
-	{
 		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:59>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___sprintButton;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_11;
-		L_11 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_10, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_11)
+		bool L_10 = V_0;
+		if (!L_10)
 		{
-			goto IL_0060;
+			goto IL_0064;
 		}
 	}
 	{
 		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:60>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___sprintButton;
-		bool L_13 = V_0;
-		NullCheck(L_12);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, L_13, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___jumpButton;
+		NullCheck(L_11);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_12;
+		L_12 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_11, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
+		PlayerController_PositionButtonBottomRight_mF2CB5827415FDFDFE53043A7D3D986DB9885F599(__this, L_12, (150.0f), (150.0f), NULL);
 	}
 
-IL_0060:
+IL_0064:
 	{
 		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:63>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
-		L_14 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral6B6496E27798FCE2C8A700E4357E4F091A2887F3, NULL);
-		V_1 = L_14;
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:64>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = V_1;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___sprintButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_16;
-		L_16 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_15, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_16)
+		bool L_14;
+		L_14 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_13, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_14)
 		{
-			goto IL_007a;
+			goto IL_009c;
 		}
 	}
 	{
 		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:65>
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = V_1;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_17, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___sprintButton;
+		bool L_16 = V_0;
+		NullCheck(L_15);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_15, L_16, NULL);
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:66>
+		bool L_17 = V_0;
+		if (!L_17)
+		{
+			goto IL_009c;
+		}
+	}
+	{
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:67>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18 = __this->___sprintButton;
+		NullCheck(L_18);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_19;
+		L_19 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_18, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
+		PlayerController_PositionButtonBottomRight_mF2CB5827415FDFDFE53043A7D3D986DB9885F599(__this, L_19, (150.0f), (300.0f), NULL);
 	}
 
-IL_007a:
-	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:68>
-		bool L_18 = V_0;
-		if (L_18)
-		{
-			goto IL_00dd;
-		}
-	}
-	{
-		MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* L_19 = __this->___mobileJoystick;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_20;
-		L_20 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_19, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_20)
-		{
-			goto IL_00dd;
-		}
-	}
-	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:70>
-		MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* L_21 = __this->___mobileJoystick;
-		NullCheck(L_21);
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_22 = L_21->___joystickBackground;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_23;
-		L_23 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_22, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_23)
-		{
-			goto IL_00b4;
-		}
-	}
+IL_009c:
 	{
 		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:71>
-		MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* L_24 = __this->___mobileJoystick;
-		NullCheck(L_24);
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_25 = L_24->___joystickBackground;
-		NullCheck(L_25);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26;
-		L_26 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_25, NULL);
-		NullCheck(L_26);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_26, (bool)0, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20;
+		L_20 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral6B6496E27798FCE2C8A700E4357E4F091A2887F3, NULL);
+		V_1 = L_20;
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:72>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_22;
+		L_22 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_21, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_22)
+		{
+			goto IL_00b6;
+		}
+	}
+	{
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:73>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_23, NULL);
 	}
 
-IL_00b4:
+IL_00b6:
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:72>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:76>
+		bool L_24 = V_0;
+		if (L_24)
+		{
+			goto IL_0119;
+		}
+	}
+	{
+		MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* L_25 = __this->___mobileJoystick;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_26;
+		L_26 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_25, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_26)
+		{
+			goto IL_0119;
+		}
+	}
+	{
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:78>
 		MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* L_27 = __this->___mobileJoystick;
 		NullCheck(L_27);
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_28 = L_27->___joystickKnob;
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_28 = L_27->___joystickBackground;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_29;
 		L_29 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_28, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_29)
 		{
-			goto IL_00dd;
+			goto IL_00f0;
 		}
 	}
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:73>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:79>
 		MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* L_30 = __this->___mobileJoystick;
 		NullCheck(L_30);
-		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_31 = L_30->___joystickKnob;
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_31 = L_30->___joystickBackground;
 		NullCheck(L_31);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_32;
 		L_32 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_31, NULL);
@@ -4938,30 +4950,117 @@ IL_00b4:
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_32, (bool)0, NULL);
 	}
 
-IL_00dd:
+IL_00f0:
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:75>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:80>
+		MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* L_33 = __this->___mobileJoystick;
+		NullCheck(L_33);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_34 = L_33->___joystickKnob;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_35;
+		L_35 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_34, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_35)
+		{
+			goto IL_0119;
+		}
+	}
+	{
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:81>
+		MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* L_36 = __this->___mobileJoystick;
+		NullCheck(L_36);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_37 = L_36->___joystickKnob;
+		NullCheck(L_37);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_38;
+		L_38 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_37, NULL);
+		NullCheck(L_38);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_38, (bool)0, NULL);
+	}
+
+IL_0119:
+	{
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:83>
 		return;
 	}
 }
 // Method Definition Index: 38149
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_PositionButtonBottomRight_mF2CB5827415FDFDFE53043A7D3D986DB9885F599 (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_button, float ___1_xOffset, float ___2_yOffset, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:87>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = ___0_button;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:87>
+		return;
+	}
+
+IL_000a:
+	{
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:89>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_2 = ___0_button;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_3), (1.0f), (0.0f), NULL);
+		NullCheck(L_2);
+		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_2, L_3, NULL);
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:90>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_4 = ___0_button;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5;
+		memset((&L_5), 0, sizeof(L_5));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_5), (1.0f), (0.0f), NULL);
+		NullCheck(L_4);
+		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_4, L_5, NULL);
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:91>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6 = ___0_button;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7;
+		memset((&L_7), 0, sizeof(L_7));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_7), (1.0f), (0.0f), NULL);
+		NullCheck(L_6);
+		RectTransform_set_pivot_m79D0177D383D432A93C2615F1932B739B1C6E146(L_6, L_7, NULL);
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:93>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_8 = ___0_button;
+		float L_9 = ___1_xOffset;
+		float L_10 = ___2_yOffset;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11;
+		memset((&L_11), 0, sizeof(L_11));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_11), ((-L_9)), L_10, NULL);
+		NullCheck(L_8);
+		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_8, L_11, NULL);
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:94>
+		return;
+	}
+}
+// Method Definition Index: 38150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_OnEnable_m1558047F72022F1A32FC373A927E122D1F3CF5CC (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayerController_U3COnEnableU3Eb__19_0_mA8B50E6185EBF1D43F90020838C4E09EE11D8E41_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayerController_U3COnEnableU3Eb__19_1_m8BE3D337E6DE819DF7829150E84F54E6E13FCB1C_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayerController_U3COnEnableU3Eb__19_2_m315DDCF7A614F4B505F6BBBBEEDBDA17F87B29F3_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayerController_U3COnEnableU3Eb__19_3_m2614C804EF216F74DBE5095EEBED3666999DD5C7_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayerController_U3COnEnableU3Eb__19_4_m1D83240397854E927B1DB0F7649A8AB67C5AE57C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayerController_U3COnEnableU3Eb__20_0_m78B94CBB718E9309C6EDA3A19D182D0A7718A9F9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayerController_U3COnEnableU3Eb__20_1_m370517CA09BB15F40B802D0205DCD820548EBB83_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayerController_U3COnEnableU3Eb__20_2_mAE7F92DAA128528B925F10E5DF229AD1A4A15ED8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayerController_U3COnEnableU3Eb__20_3_m9A3B1FD20EA4C293C9E3E1E52FEC7D28DBDCB2C7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayerController_U3COnEnableU3Eb__20_4_m6205424D65562D33DE1562A18C53755AD4A8C84F_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	PlayerActions_t9286FAD04EF1C276C8250C63258E2736FCA620AC V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:79>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:97>
 		PlayerControls_t7EFF800E1E7E86137BD4DBD2F5C5D16BD2CA4D77* L_0 = __this->___controls;
 		NullCheck(L_0);
 		PlayerActions_t9286FAD04EF1C276C8250C63258E2736FCA620AC L_1;
@@ -4970,10 +5069,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_OnEnable_m1558047F72022
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_2;
 		L_2 = PlayerActions_get_Move_m5CAC1743BC4DBE64E825FCF8FE434B4F3255A874((&V_0), NULL);
 		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_3 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_3, __this, (intptr_t)((void*)PlayerController_U3COnEnableU3Eb__19_0_mA8B50E6185EBF1D43F90020838C4E09EE11D8E41_RuntimeMethod_var), NULL);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_3, __this, (intptr_t)((void*)PlayerController_U3COnEnableU3Eb__20_0_m78B94CBB718E9309C6EDA3A19D182D0A7718A9F9_RuntimeMethod_var), NULL);
 		NullCheck(L_2);
 		InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54(L_2, L_3, NULL);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:80>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:98>
 		PlayerControls_t7EFF800E1E7E86137BD4DBD2F5C5D16BD2CA4D77* L_4 = __this->___controls;
 		NullCheck(L_4);
 		PlayerActions_t9286FAD04EF1C276C8250C63258E2736FCA620AC L_5;
@@ -4982,10 +5081,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_OnEnable_m1558047F72022
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_6;
 		L_6 = PlayerActions_get_Move_m5CAC1743BC4DBE64E825FCF8FE434B4F3255A874((&V_0), NULL);
 		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_7 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_7, __this, (intptr_t)((void*)PlayerController_U3COnEnableU3Eb__19_1_m8BE3D337E6DE819DF7829150E84F54E6E13FCB1C_RuntimeMethod_var), NULL);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_7, __this, (intptr_t)((void*)PlayerController_U3COnEnableU3Eb__20_1_m370517CA09BB15F40B802D0205DCD820548EBB83_RuntimeMethod_var), NULL);
 		NullCheck(L_6);
 		InputAction_add_canceled_m69EC253E21CC314BFB350A86E294D0651F5ECA77(L_6, L_7, NULL);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:82>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:100>
 		PlayerControls_t7EFF800E1E7E86137BD4DBD2F5C5D16BD2CA4D77* L_8 = __this->___controls;
 		NullCheck(L_8);
 		PlayerActions_t9286FAD04EF1C276C8250C63258E2736FCA620AC L_9;
@@ -4994,10 +5093,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_OnEnable_m1558047F72022
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_10;
 		L_10 = PlayerActions_get_Jump_m8A89D022BFFE49D456360CE574AFE71753E7424A((&V_0), NULL);
 		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_11 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_11, __this, (intptr_t)((void*)PlayerController_U3COnEnableU3Eb__19_2_m315DDCF7A614F4B505F6BBBBEEDBDA17F87B29F3_RuntimeMethod_var), NULL);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_11, __this, (intptr_t)((void*)PlayerController_U3COnEnableU3Eb__20_2_mAE7F92DAA128528B925F10E5DF229AD1A4A15ED8_RuntimeMethod_var), NULL);
 		NullCheck(L_10);
 		InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54(L_10, L_11, NULL);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:83>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:101>
 		PlayerControls_t7EFF800E1E7E86137BD4DBD2F5C5D16BD2CA4D77* L_12 = __this->___controls;
 		NullCheck(L_12);
 		PlayerActions_t9286FAD04EF1C276C8250C63258E2736FCA620AC L_13;
@@ -5006,10 +5105,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_OnEnable_m1558047F72022
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_14;
 		L_14 = PlayerActions_get_Sprint_m8B3CEE4298512CDC4850F6BF13818B218FF66624((&V_0), NULL);
 		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_15 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_15, __this, (intptr_t)((void*)PlayerController_U3COnEnableU3Eb__19_3_m2614C804EF216F74DBE5095EEBED3666999DD5C7_RuntimeMethod_var), NULL);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_15, __this, (intptr_t)((void*)PlayerController_U3COnEnableU3Eb__20_3_m9A3B1FD20EA4C293C9E3E1E52FEC7D28DBDCB2C7_RuntimeMethod_var), NULL);
 		NullCheck(L_14);
 		InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54(L_14, L_15, NULL);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:84>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:102>
 		PlayerControls_t7EFF800E1E7E86137BD4DBD2F5C5D16BD2CA4D77* L_16 = __this->___controls;
 		NullCheck(L_16);
 		PlayerActions_t9286FAD04EF1C276C8250C63258E2736FCA620AC L_17;
@@ -5018,42 +5117,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_OnEnable_m1558047F72022
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_18;
 		L_18 = PlayerActions_get_Sprint_m8B3CEE4298512CDC4850F6BF13818B218FF66624((&V_0), NULL);
 		Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* L_19 = (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E*)il2cpp_codegen_object_new(Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E_il2cpp_TypeInfo_var);
-		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_19, __this, (intptr_t)((void*)PlayerController_U3COnEnableU3Eb__19_4_m1D83240397854E927B1DB0F7649A8AB67C5AE57C_RuntimeMethod_var), NULL);
+		Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57(L_19, __this, (intptr_t)((void*)PlayerController_U3COnEnableU3Eb__20_4_m6205424D65562D33DE1562A18C53755AD4A8C84F_RuntimeMethod_var), NULL);
 		NullCheck(L_18);
 		InputAction_add_canceled_m69EC253E21CC314BFB350A86E294D0651F5ECA77(L_18, L_19, NULL);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:86>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:104>
 		PlayerControls_t7EFF800E1E7E86137BD4DBD2F5C5D16BD2CA4D77* L_20 = __this->___controls;
 		NullCheck(L_20);
 		PlayerControls_Enable_mA3A1AC1C47796AB9C5A0428F3798DC4A93E9EB89(L_20, NULL);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:87>
-		return;
-	}
-}
-// Method Definition Index: 38150
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_OnDisable_m16524B89F1DDB4EB1E201CCEB7E9502967BF57DB (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:91>
-		PlayerControls_t7EFF800E1E7E86137BD4DBD2F5C5D16BD2CA4D77* L_0 = __this->___controls;
-		NullCheck(L_0);
-		PlayerControls_Disable_m3CEC474D7D0E86DFD816BF53FE9AE127E60EA425(L_0, NULL);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:92>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:105>
 		return;
 	}
 }
 // Method Definition Index: 38151
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_FixedUpdate_m6D906D8B13844542B81CC49BA19760F747CEC8C0 (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_OnDisable_m16524B89F1DDB4EB1E201CCEB7E9502967BF57DB (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:96>
-		PlayerController_CheckGround_m1B5D73B1183E6C9268E95650FD46B1C7A5BC0BD6(__this, NULL);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:97>
-		PlayerController_MovePlayer_m8851F676C978D72AC985DF6E15F8928A82B5D457(__this, NULL);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:98>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:109>
+		PlayerControls_t7EFF800E1E7E86137BD4DBD2F5C5D16BD2CA4D77* L_0 = __this->___controls;
+		NullCheck(L_0);
+		PlayerControls_Disable_m3CEC474D7D0E86DFD816BF53FE9AE127E60EA425(L_0, NULL);
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:110>
 		return;
 	}
 }
 // Method Definition Index: 38152
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_FixedUpdate_m6D906D8B13844542B81CC49BA19760F747CEC8C0 (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:114>
+		PlayerController_CheckGround_m1B5D73B1183E6C9268E95650FD46B1C7A5BC0BD6(__this, NULL);
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:115>
+		PlayerController_MovePlayer_m8851F676C978D72AC985DF6E15F8928A82B5D457(__this, NULL);
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:116>
+		return;
+	}
+}
+// Method Definition Index: 38153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_MovePlayer_m8851F676C978D72AC985DF6E15F8928A82B5D457 (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5081,7 +5180,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_MovePlayer_m8851F676C97
 	memset((&V_8), 0, sizeof(V_8));
 	float G_B12_0 = 0.0f;
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:103>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:121>
 		il2cpp_codegen_runtime_class_init_inline(Touch_t07A55E11962F143607E917F0B6FEFB36EE2DDA70_il2cpp_TypeInfo_var);
 		ReadOnlyArray_1_t3D5F71F2FAC15E8E7413E1B4BDCCA92D49962E72 L_0;
 		L_0 = Touch_get_activeTouches_m10CB2BE5EC26DB9CF742196282FCF10C090AAD11(NULL);
@@ -5094,13 +5193,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_MovePlayer_m8851F676C97
 		}
 	}
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:104>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:122>
 		return;
 	}
 
 IL_0012:
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:106>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:124>
 		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_2;
 		L_2 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
 		if (!L_2)
@@ -5123,36 +5222,36 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:107>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:125>
 		return;
 	}
 
 IL_002b:
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:109>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:127>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->___cameraTransform;
 		NullCheck(L_6);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
 		L_7 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_6, NULL);
 		V_0 = L_7;
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:110>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:128>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = __this->___cameraTransform;
 		NullCheck(L_8);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		L_9 = Transform_get_right_mC6DC057C23313802E2186A9E0DB760D795A758A4(L_8, NULL);
 		V_1 = L_9;
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:112>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:130>
 		(&V_0)->___y = (0.0f);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:113>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:131>
 		(&V_1)->___y = (0.0f);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:115>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:133>
 		Vector3_Normalize_mC749B887A4C74BA0A2E13E6377F17CCAEB0AADA8_inline((&V_0), NULL);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:116>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:134>
 		Vector3_Normalize_mC749B887A4C74BA0A2E13E6377F17CCAEB0AADA8_inline((&V_1), NULL);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:118>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:136>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10 = __this->___moveInput;
 		V_2 = L_10;
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:120>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:138>
 		MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* L_11 = __this->___mobileJoystick;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -5163,19 +5262,19 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:122>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:140>
 		MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* L_13 = __this->___mobileJoystick;
 		NullCheck(L_13);
 		float L_14;
 		L_14 = MobileJoystick_Horizontal_m18734CAC884B998CADF9868A9FF6718BDCCA5B8E(L_13, NULL);
 		V_6 = L_14;
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:123>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:141>
 		MobileJoystick_tDE048223C1BFDED3495BF43D55785604E942F03E* L_15 = __this->___mobileJoystick;
 		NullCheck(L_15);
 		float L_16;
 		L_16 = MobileJoystick_Vertical_m1F94163D7C005382AE296E97DB6428A629615D9B(L_15, NULL);
 		V_7 = L_16;
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:125>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:143>
 		float L_17 = V_6;
 		float L_18;
 		L_18 = fabsf(L_17);
@@ -5196,7 +5295,7 @@ IL_002b:
 
 IL_00b4:
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:126>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:144>
 		float L_21 = V_6;
 		float L_22 = V_7;
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_2), L_21, L_22, NULL);
@@ -5204,7 +5303,7 @@ IL_00b4:
 
 IL_00bf:
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:129>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:147>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = V_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_24 = V_2;
 		float L_25 = L_24.___y;
@@ -5218,7 +5317,7 @@ IL_00bf:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31;
 		L_31 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_26, L_30, NULL);
 		V_3 = L_31;
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:131>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:149>
 		bool L_32 = __this->___sprinting;
 		if (L_32)
 		{
@@ -5241,7 +5340,7 @@ IL_00ed:
 IL_00fa:
 	{
 		V_4 = G_B12_0;
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:133>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:151>
 		float L_36;
 		L_36 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_3), NULL);
 		if ((!(((float)L_36) > ((float)(0.100000001f)))))
@@ -5250,9 +5349,9 @@ IL_00fa:
 		}
 	}
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:135>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:153>
 		Vector3_Normalize_mC749B887A4C74BA0A2E13E6377F17CCAEB0AADA8_inline((&V_3), NULL);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:137>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:155>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37 = V_3;
 		float L_38 = V_4;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39;
@@ -5262,7 +5361,7 @@ IL_00fa:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41;
 		L_41 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_39, L_40, NULL);
 		V_8 = L_41;
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:138>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:156>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_42 = __this->___rb;
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_43 = __this->___rb;
 		NullCheck(L_43);
@@ -5273,18 +5372,18 @@ IL_00fa:
 		L_46 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_44, L_45, NULL);
 		NullCheck(L_42);
 		Rigidbody_MovePosition_mB2CD29ABC8F59AC338C0A3A5A6B75C38FDA92CA9(L_42, L_46, NULL);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:140>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:158>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_47 = V_3;
 		PlayerController_RotateTowards_m2493238CC73BEE78751FE072A9AD0D5866708A6C(__this, L_47, NULL);
 	}
 
 IL_0149:
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:142>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:160>
 		return;
 	}
 }
-// Method Definition Index: 38153
+// Method Definition Index: 38154
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_RotateTowards_m2493238CC73BEE78751FE072A9AD0D5866708A6C (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_direction, const RuntimeMethod* method) 
 {
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
@@ -5292,12 +5391,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_RotateTowards_m2493238C
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:146>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:164>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_direction;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
 		L_1 = Quaternion_LookRotation_mDB2CCA75B8E1AB98104F2A6E1A1EA57D0D1298D7_inline(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:147>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:165>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_2 = __this->___rb;
 		NullCheck(L_2);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3;
@@ -5309,20 +5408,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_RotateTowards_m2493238C
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_7;
 		L_7 = Quaternion_Slerp_m0A9969F500E7716EA4F6BC4E7D5464372D8E9E15_inline(L_3, L_4, ((float)il2cpp_codegen_multiply(L_5, L_6)), NULL);
 		V_1 = L_7;
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:148>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:166>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_8 = __this->___rb;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_9 = V_1;
 		NullCheck(L_8);
 		Rigidbody_MoveRotation_m85825C7206E770E39DED9EE6D792702F577A891D(L_8, L_9, NULL);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:149>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:167>
 		return;
 	}
 }
-// Method Definition Index: 38154
+// Method Definition Index: 38155
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_Jump_mA1AE5FDC39F88F78568A88C4CF6D08FDC6D7E908 (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:153>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:171>
 		bool L_0 = __this->___isGrounded;
 		if (L_0)
 		{
@@ -5330,13 +5429,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_Jump_mA1AE5FDC39F88F785
 		}
 	}
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:153>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:171>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:154>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:172>
 		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_1 = __this->___rb;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
 		L_2 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
@@ -5345,11 +5444,11 @@ IL_0009:
 		L_4 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_2, L_3, NULL);
 		NullCheck(L_1);
 		Rigidbody_AddForce_mBDBC288D0E266BC1B62E3649B4FCE46E7EA9CCBC(L_1, L_4, 1, NULL);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:155>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:173>
 		return;
 	}
 }
-// Method Definition Index: 38155
+// Method Definition Index: 38156
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_CheckGround_m1B5D73B1183E6C9268E95650FD46B1C7A5BC0BD6 (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5359,7 +5458,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_CheckGround_m1B5D73B118
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:159>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:177>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___groundCheck;
 		NullCheck(L_0);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
@@ -5372,41 +5471,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_CheckGround_m1B5D73B118
 		bool L_5;
 		L_5 = Physics_CheckSphere_mD6F0027DBDECFA69245E99D8A4EE1DC8742A817F(L_1, L_2, L_4, NULL);
 		__this->___isGrounded = L_5;
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:160>
-		return;
-	}
-}
-// Method Definition Index: 38156
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_JumpButton_mBA60D78EA97DBBB333B01ABA8B884A0F7ED05D2A (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:164>
-		PlayerController_Jump_mA1AE5FDC39F88F78568A88C4CF6D08FDC6D7E908(__this, NULL);
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:165>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:178>
 		return;
 	}
 }
 // Method Definition Index: 38157
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_SprintButtonDown_m8337354DAB5B3ED8920059286FD10D9FCAEDFA14 (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_JumpButton_mBA60D78EA97DBBB333B01ABA8B884A0F7ED05D2A (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:169>
-		__this->___sprinting = (bool)1;
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:170>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:182>
+		PlayerController_Jump_mA1AE5FDC39F88F78568A88C4CF6D08FDC6D7E908(__this, NULL);
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:183>
 		return;
 	}
 }
 // Method Definition Index: 38158
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_SprintButtonUp_m9AA19D69C315C194FE6D1869B8C573668F5C743F (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_SprintButtonDown_m8337354DAB5B3ED8920059286FD10D9FCAEDFA14 (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:174>
-		__this->___sprinting = (bool)0;
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:175>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:187>
+		__this->___sprinting = (bool)1;
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:188>
 		return;
 	}
 }
 // Method Definition Index: 38159
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_SprintButtonUp_m9AA19D69C315C194FE6D1869B8C573668F5C743F (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:192>
+		__this->___sprinting = (bool)0;
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:193>
+		return;
+	}
+}
+// Method Definition Index: 38160
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33 (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5424,8 +5523,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController__ctor_mDDAB7C7D82E1A5B3
 		return;
 	}
 }
-// Method Definition Index: 38160
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_U3COnEnableU3Eb__19_0_mA8B50E6185EBF1D43F90020838C4E09EE11D8E41 (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
+// Method Definition Index: 38161
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_U3COnEnableU3Eb__20_0_m78B94CBB718E9309C6EDA3A19D182D0A7718A9F9 (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5434,47 +5533,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_U3COnEnableU3Eb__19_0_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:79>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:97>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
 		L_0 = CallbackContext_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m454ADEAE74A5A469E011CF78D6303A1034659830((&___0_ctx), CallbackContext_ReadValue_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m454ADEAE74A5A469E011CF78D6303A1034659830_RuntimeMethod_var);
 		__this->___moveInput = L_0;
 		return;
 	}
 }
-// Method Definition Index: 38161
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_U3COnEnableU3Eb__19_1_m8BE3D337E6DE819DF7829150E84F54E6E13FCB1C (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
+// Method Definition Index: 38162
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_U3COnEnableU3Eb__20_1_m370517CA09BB15F40B802D0205DCD820548EBB83 (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:80>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:98>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
 		L_0 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		__this->___moveInput = L_0;
 		return;
 	}
 }
-// Method Definition Index: 38162
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_U3COnEnableU3Eb__19_2_m315DDCF7A614F4B505F6BBBBEEDBDA17F87B29F3 (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
+// Method Definition Index: 38163
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_U3COnEnableU3Eb__20_2_mAE7F92DAA128528B925F10E5DF229AD1A4A15ED8 (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:82>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:100>
 		PlayerController_Jump_mA1AE5FDC39F88F78568A88C4CF6D08FDC6D7E908(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 38163
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_U3COnEnableU3Eb__19_3_m2614C804EF216F74DBE5095EEBED3666999DD5C7 (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
+// Method Definition Index: 38164
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_U3COnEnableU3Eb__20_3_m9A3B1FD20EA4C293C9E3E1E52FEC7D28DBDCB2C7 (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:83>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:101>
 		__this->___sprinting = (bool)1;
 		return;
 	}
 }
-// Method Definition Index: 38164
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_U3COnEnableU3Eb__19_4_m1D83240397854E927B1DB0F7649A8AB67C5AE57C (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
+// Method Definition Index: 38165
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_U3COnEnableU3Eb__20_4_m6205424D65562D33DE1562A18C53755AD4A8C84F (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, CallbackContext_tB251EE41F509C6E8A6B05EC97C029A45DF4F5FA8 ___0_ctx, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:84>
+		//<source_info:/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Assets/Scripts/PlayerController.cs:102>
 		__this->___sprinting = (bool)0;
 		return;
 	}
@@ -5487,7 +5586,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_U3COnEnableU3Eb__19_4_m
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 38165
+// Method Definition Index: 38166
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5521,7 +5620,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC
 		return L_6;
 	}
 }
-// Method Definition Index: 38166
+// Method Definition Index: 38167
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5958,6 +6057,17 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2D
 		return L_0;
 	}
 }
+// Method Definition Index: 30538
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		return;
+	}
+}
 // Method Definition Index: 30420
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3_Normalize_mC749B887A4C74BA0A2E13E6377F17CCAEB0AADA8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
 {
@@ -5997,17 +6107,6 @@ IL_0042:
 
 IL_0065:
 	{
-		return;
-	}
-}
-// Method Definition Index: 30538
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
-{
-	{
-		float L_0 = ___0_x;
-		__this->___x = L_0;
-		float L_1 = ___1_y;
-		__this->___y = L_1;
 		return;
 	}
 }
