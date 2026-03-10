@@ -6,6 +6,7 @@ using Touch = UnityEngine.InputSystem.EnhancedTouch.Touch;
 [RequireComponent(typeof(Rigidbody))]
 public class PlayerController : MonoBehaviour
 {
+    [Header("Camera")]
     public Transform cameraTransform;
 
     [Header("Mobile")]
@@ -27,6 +28,9 @@ public class PlayerController : MonoBehaviour
     public GameObject jumpButton;
     public GameObject sprintButton;
 
+    [Header("Animator")]
+    public Animator animator;
+
     private Rigidbody rb;
     private PlayerControls controls;
 
@@ -41,57 +45,40 @@ public class PlayerController : MonoBehaviour
         rb.freezeRotation = true;
     }
 
-  void Start()
-{
-    // Aktiver Enhanced Touch (kun relevant på mobile)
-    if (Application.isMobilePlatform)
-        EnhancedTouchSupport.Enable();
-
-    bool isMobile = Application.isMobilePlatform;
-
-    // Vis / skjul mobile controls
-    if (mobileControls != null)
-        mobileControls.SetActive(isMobile);
-
-    if (jumpButton != null)
+    void Start()
     {
-        jumpButton.SetActive(isMobile);
-        if (isMobile)
-            PositionButtonBottomRight(jumpButton.GetComponent<RectTransform>(), 150, 150); // distance fra bottom/right
+        if (Application.isMobilePlatform)
+            EnhancedTouchSupport.Enable();
+
+        bool isMobile = Application.isMobilePlatform;
+
+        if (mobileControls != null)
+            mobileControls.SetActive(isMobile);
+
+        if (jumpButton != null)
+        {
+            jumpButton.SetActive(isMobile);
+            if (isMobile)
+                PositionButtonBottomRight(jumpButton.GetComponent<RectTransform>(), 150, 150);
+        }
+
+        if (sprintButton != null)
+        {
+            sprintButton.SetActive(isMobile);
+            if (isMobile)
+                PositionButtonBottomRight(sprintButton.GetComponent<RectTransform>(), 150, 300);
+        }
     }
 
-    if (sprintButton != null)
-    {
-        sprintButton.SetActive(isMobile);
-        if (isMobile)
-            PositionButtonBottomRight(sprintButton.GetComponent<RectTransform>(), 150, 300); // lidt ovenfor jump
-    }
-
-    // Fjerne den hvide firkant hvis den eksisterer
-    GameObject whiteBox = GameObject.Find("WhiteBox");
-    if (whiteBox != null)
-        Destroy(whiteBox);
-
-    // Skjul joystick på PC/Mac
-    if (!isMobile && mobileJoystick != null)
-    {
-        if (mobileJoystick.joystickBackground != null)
-            mobileJoystick.joystickBackground.gameObject.SetActive(false);
-        if (mobileJoystick.joystickKnob != null)
-            mobileJoystick.joystickKnob.gameObject.SetActive(false);
-    }
-}
-    /// Positioner knapper nederst til højre på skærmen
     private void PositionButtonBottomRight(RectTransform button, float xOffset, float yOffset)
     {
         if (button == null) return;
-
-        button.anchorMin = new Vector2(1, 0);  // nederst højre
+        button.anchorMin = new Vector2(1, 0);
         button.anchorMax = new Vector2(1, 0);
         button.pivot = new Vector2(1, 0);
-
         button.anchoredPosition = new Vector2(-xOffset, yOffset);
     }
+
     void OnEnable()
     {
         controls.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
@@ -112,83 +99,90 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         CheckGround();
-        MovePlayer();
+        HandleMovement();
+        UpdateAnimator();
     }
 
-    void MovePlayer()
+    private void HandleMovement()
     {
-        // stop movement ved 2 finger kamera rotation
-        if (Touch.activeTouches.Count >= 2)
-            return;
-            
-        if (Keyboard.current != null && Keyboard.current.zKey.isPressed)
-            return;
-
-        Vector3 camForward = cameraTransform.forward;
-        Vector3 camRight = cameraTransform.right;
-
-        camForward.y = 0;
-        camRight.y = 0;
-
-        camForward.Normalize();
-        camRight.Normalize();
-
+        // Saml input
         Vector2 input = moveInput;
-
         if (mobileJoystick != null)
         {
             float h = mobileJoystick.Horizontal();
             float v = mobileJoystick.Vertical();
-
             if (Mathf.Abs(h) > 0.01f || Mathf.Abs(v) > 0.01f)
                 input = new Vector2(h, v);
         }
 
-        Vector3 direction = camForward * input.y + camRight * input.x;
+        // Beregn retning i forhold til kamera
+        Vector3 camForward = cameraTransform.forward;
+        camForward.y = 0f;
+        camForward.Normalize();
 
+        Vector3 camRight = cameraTransform.right;
+        camRight.y = 0f;
+        camRight.Normalize();
+
+        Vector3 direction = (camForward * input.y + camRight * input.x);
+
+        // Hvis ingen input, stop vandret bevægelse
+        if (direction.sqrMagnitude < 0.01f)
+        {
+            rb.linearVelocity = new Vector3(0f, rb.linearVelocity.y, 0f);
+            return;
+        }
+
+        direction.Normalize();
         float speed = sprinting ? moveSpeed * sprintMultiplier : moveSpeed;
 
-        if (direction.magnitude > 0.1f)
-        {
-            direction.Normalize();
+        // Flyt via MovePosition (stabil bevægelse)
+        Vector3 move = rb.position + direction * speed * Time.fixedDeltaTime;
+        move.y = rb.position.y; // Bevar y for jump/gravity
+        rb.MovePosition(move);
 
-            Vector3 move = direction * speed * Time.fixedDeltaTime;
-            rb.MovePosition(rb.position + move);
-
-            RotateTowards(direction);
-        }
+        // Rotation mod retning
+        RotateTowards(direction);
     }
 
-    void RotateTowards(Vector3 direction)
+    private void RotateTowards(Vector3 direction)
     {
+        if (direction.sqrMagnitude < 0.01f) return;
         Quaternion targetRotation = Quaternion.LookRotation(direction);
-        Quaternion smooth = Quaternion.Slerp(rb.rotation, targetRotation, rotationSpeed * Time.fixedDeltaTime);
-        rb.MoveRotation(smooth);
+        rb.MoveRotation(Quaternion.Slerp(rb.rotation, targetRotation, rotationSpeed * Time.fixedDeltaTime));
     }
 
-    void Jump()
+    private void Jump()
     {
         if (!isGrounded) return;
+
+        // Nulstil Y velocity før hop
+        rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
         rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+
+        if (animator != null)
+            animator.SetTrigger("Jump");
     }
 
-    void CheckGround()
+    private void CheckGround()
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundLayer);
+        if (animator != null)
+            animator.SetBool("IsGrounded", isGrounded);
     }
 
-    public void JumpButton()
+    private void UpdateAnimator()
     {
-        Jump();
+        if (animator == null) return;
+
+        // Brug faktisk vandret hastighed
+        Vector3 horizontalVel = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
+        float speedPercent = horizontalVel.magnitude / (moveSpeed * sprintMultiplier);
+        animator.SetFloat("Speed", Mathf.Clamp01(speedPercent), 0.1f, Time.deltaTime);
     }
 
-    public void SprintButtonDown()
-    {
-        sprinting = true;
-    }
-
-    public void SprintButtonUp()
-    {
-        sprinting = false;
-    }
+    // UI knapper
+    public void JumpButton() => Jump();
+    public void SprintButtonDown() => sprinting = true;
+    public void SprintButtonUp() => sprinting = false;
 }
