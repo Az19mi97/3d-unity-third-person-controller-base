@@ -1,3 +1,0 @@
-/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/CMakeLists.txt
-/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/FramePacing/CMakeLists.txt
-/Users/azmiuslu/Documents/GitHub/EnthTech/3d-unity-arena-survival/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/cpp/GameActivity/CMakeLists.txt
