@@ -1,27 +1,46 @@
-# Unity
+# Unity generated folders
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-[Mm]emoryCaptures/
+UserSettings/
+MemoryCaptures/
 
-# User-specific
+# Build outputs
+*.apk
+*.aab
+*.unitypackage
+
+# Unity metadata (local machine junk)
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+
+# Visual Studio / Rider / IDEs
+.vscode/
+.idea/
 *.csproj
 *.unityproj
 *.sln
 *.suo
 *.user
 *.userprefs
-*.pidb
-*.booproj
-*.svd
+*.csproj.user
+*.vs/
 
 # OS files
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Visual Studio / Rider
-.vscode/
-.idea/
+# Crash / logs / temp dumps
+*.stackdump
+*.log
+mono_crash.*
+
+# Optional: Addressables / build cache
+AddressableAssetsData/*/*.bin*
